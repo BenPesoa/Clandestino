@@ -1,0 +1,23 @@
+body { background-image: url(media/fondo.jpg)}
+
+	a {font-family: serif;
+	color:rgb(250, 250, 250);
+	font-size: 25px;
+	text-decoration:none;
+	}
+	
+	h1 {font-family: serif;
+	color:rgb(250, 250, 250);
+	font-size: 35px;
+	text-decoration:underline;
+	}
+	
+	h4 {font-family: serif;
+	color:rgb(250, 250, 250);
+	font-size: 19px;
+		}
+	
+	p {font-family: sans-serif;
+	color:rgb(250, 250, 250);
+	font-size: 17px;
+	}
