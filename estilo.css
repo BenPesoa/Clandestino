@@ -2,15 +2,26 @@
 margin: 0px;
 padding: 0px;
 }
+@font-face {
+	font-family: "letra1";
+	src: url("font4.ttf");
+}
+@font-face {
+	font-family: "letra2";
+	src: url("font5.ttf");
+}
+
+
 h1 {
-font: bold 20px verdana, sans-serif;
+font:  50px letra1, verdana, sans-serif;
+text-shadow: rgba(0,0,0, 0.45) 3px 3px 1px
 }
 h2 {
-font: bold 14px verdana, sans-serif;
+font:  20px verdana, sans-serif;
 }
-a {color:rgb(55,52,77);
-	font-family:sans-serif;
-	font-size:15px;
+a {color:rgb(0,0,0);
+	font: 25px letra2;
+	text-decoration: none;
 }
 header, section, footer, aside, nav, article, figure, figcaption,
 hgroup{
@@ -18,7 +29,7 @@ display: block;
 }
 body {
 text-align: center;
-background-color:rgb(50,36,120);
+background: -webkit-linear-gradient(top, #3d3976, #625db0);
 }
 #group {
 width: 960px;
@@ -26,24 +37,27 @@ margin: 15px auto;
 text-align: left;
 }
 #header {
-background:rgb(69,50,146);
+background-color: #625db0;
 border: 1px solid rgb(55,52,77);
 padding: 20px;
 border-top-right-radius: 25px;
 border-top-left-radius: 25px;
+font: 20px letra1, verdana, sans-serif;
+box-shadow: rgb(10,10,10) 5px 5px 5px;
+text-shadow: rgba(0,0,0, 0.45) 3px 3px 1px
 }
 #menu {
-background:rgb(74,69,143);
+background: -webkit-linear-gradient(top, #3d3976, #625db0);
 padding: 5px 25px;
 border-bottom-right-radius: 25px;
 border-bottom-left-radius: 25px;
+box-shadow: rgb(10,10,10) 5px 5px 5px;
 }
 #menu li {
 display: inline-block;
 list-style: none;
 padding: 5px;
 margin: 5px 10px;
-font: bold 14px verdana, sans-serif;
 }
 #section {
 float: left;
@@ -55,8 +69,9 @@ float: left;
 width: 220px;
 margin: 20px 0px;
 padding: 20px;
-background:rgb(74,69,143);
+background: -webkit-linear-gradient(top, #3d3976, #625db0);
 border-radius: 25px;
+box-shadow: rgb(10,10,10) 5px 5px 5px;
 }
 #footer {
 clear: both;
@@ -65,11 +80,13 @@ padding: 20px;
 border-top: 2px solid rgb(55,52,77);
 }
 article {
-background:rgb(84,78,147);
+background:rgb(95,88,165);
 border: 1px solid rgb(55,52,77);
 padding: 20px;
 margin-bottom: 15px;
 border-radius: 25px;
+box-shadow: rgb(10,10,10) 5px 5px 5px;
+font: 15px letra2;
 }
 article footer {
 text-align: right;
@@ -80,3 +97,41 @@ color: rgb(55,52,77);
 figcaption {
 font: italic 14px verdana, sans-serif;
 }
+#b1, #b2, #b3, #b4, #b5, #l1{
+	border-radius: 15px;
+}
+
+#b1:hover{
+	background:rgb(89,84,172);
+	-webkit-transform: scale(1.10);
+}
+#b2:hover{
+	background:rgb(89,84,172);
+	-webkit-transform: scale(1.10);
+}
+#b3:hover{
+	background:rgb(89,84,172);
+	-webkit-transform: scale(1.10);
+}
+#b4:hover{
+	background:rgb(89,84,172);
+	-webkit-transform: scale(1.10);
+}
+#b5:hover{
+	background:rgb(89,84,172);
+	-webkit-transform: scale(1.10);
+}
+
+#l1, #l2, #l3{
+	font: 15px letra2;
+}
+	
+#l1:hover{
+	background:rgb(89,84,172);
+	}
+#l2:hover{
+	background:rgb(89,84,172);
+	}
+#l3:hover{
+	background:rgb(98,94,177);
+	}
