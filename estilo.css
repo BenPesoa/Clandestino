@@ -11,6 +11,9 @@ padding: 0px;
 	src: url("font5.ttf");
 }
 
+v{
+	font: 20px letra2;
+}
 
 h1 {
 font:  50px letra1, verdana, sans-serif;
